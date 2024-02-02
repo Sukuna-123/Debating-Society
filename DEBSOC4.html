@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Debating Society</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: whitesmoke;
+            color: #333;
+        }
+
+        .page-container {
+            max-width: 1200px;
+            margin: 20px auto;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: lightgray;
+        }
+
+        header {
+            background-color: #333;
+            color: lavenderblush;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            margin: 20px;
+            background-color: lightyellow;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        section:hover {
+            transform: scale(1.05);
+        }
+
+        .title {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            font-size: 22px;
+            line-height: 1.5;
+            margin-top: 10px;
+        }
+
+        .detail {
+            font-size: 20px;
+            color: brown;
+        }
+
+        .event-images {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .event-image {
+            width: 48%; 
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        @media screen and (max-width: 600px) {
+            .event-images {
+                flex-direction: column;
+            }
+
+            .event-image {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+
+        ::after {
+            content: '';
+            display: block;
+            height: 50px; 
+        }
+
+        section:nth-child(even) {
+            transform-origin: center bottom;
+        }
+
+        section:nth-child(odd) {
+            transform-origin: center top;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="page-container">
+
+        <header>
+            <h1>Debating Society Events</h1>
+        </header>
+
+        <div class="container">
+            <section>
+                <div class="event-images">
+                    <img class="event-image" src="https://backend.debsocnitdgp.in/media/eventPosters/Snapinsta.app_397444935_299829083003889_2876731990349621005_n_1080.jpg" alt="Take DeBait 5.0">
+                    <img class="event-image" src="https://scontent.fdbd3-1.fna.fbcdn.net/v/t39.30808-6/398713894_722767369872569_5375718716107590222_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=SJia5bTUVQgAX9At4x3&_nc_ht=scontent.fdbd3-1.fna&oh=00_AfBze_VQ3vSce0lAkZuZdmqws1Sk8auXaST59KWJoNWFuQ&oe=65C1BB45" alt="Panelists">
+                </div>
+                <div>
+                    <h2 class="title">Take DeBait 5.0</h2>
+                    <p class="description">Don your detective hat, gather clues, probe suspects, and decipher the enigma of a thrilling whodunit. A night of suspense and deduction awaits, where you become inexorable, and the truth is your ultimate prize. <br>
+
+                    We, the Debating Society, NIT Durgapur present to you Take DeBait 5.0 a journey filled with jolting corkscrews and loops. Brace yourself for another ride of thrills and turns as it's high time for some euphoria. <br>
+        
+                    In the world of secrets, can you uncover the ultimate truth? Unravel the enigma, reveal the truth, and be the hero. <br> <br>
+
+                    With Take DeBait 5.0 around the corner, participants brace themselves to embark on an intriguing quest to find the murderer. Rife with accusations and defensive arguments, a labyrinth of plots is gradually unveiled. Amidst a sea of compelling arguments, crowning the winner requires exceptional skill and thinking prowess.
+
+                    We, the Deabting Society, NIT Durgapur are delighted to introduce our distinguished panel of judges, comprising of:
+                   <ol type="1">
+                        <li>Swastik Sarkar</li>
+                        <li>Epshita Chakravarty</li>
+                        <li>Vipul Poddar</li>
+                   </ol>
+                </p>
+                    <p class="detail">Date - 5th November 2023</p>
+                    <p class="detail">Venue - Main Academic Building</p>
+                </div>
+            </section>
+
+            <section>
+                <div class="event-images">
+                    <img class="event-image" src="https://scontent.fdbd3-1.fna.fbcdn.net/v/t39.30808-6/420202682_765798565569449_3312677046874858603_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=RsIKTYuzHoIAX_qv6rV&_nc_ht=scontent.fdbd3-1.fna&oh=00_AfDa327ZNU_XSdI0COXujiAqk1uJEzA2LIsYKJQ4C5vdtA&oe=65C1DEDA" alt="Reverberate">
+                    <img class="event-image" src="https://scontent.fdbd3-1.fna.fbcdn.net/v/t39.30808-6/420180329_767062368776402_6338729756354251068_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=sfbjV5I3EU4AX__UV82&_nc_ht=scontent.fdbd3-1.fna&oh=00_AfDAFeqR3g5eCfgMdTeoLla4ciGSP4oCu86pyWyDIxlyBQ&oe=65C1FA62" alt="What If?">
+                </div>
+                <div>
+                    <h2 class="title">Reverberate and What If?</h2>
+                    <p class="description">Hold your bids, freshers because we are going to auction one of the rarest treasure - your voice. Don't worry, mutes and mumblers, it's buried under there somewhere, beneath layers of "ums" and nervous shrugs. Don't worry, we'll dust it off, polish it till it shines, and teach it to command rooms like a rockstar mic drop. <br>
+
+                    So, silence your inner critic and join us at the biggest public speaking workshop of our college. We, the Debating Society, NIT Durgapur presents Reverberate - a public speaking workshop where introverts become extroverts, mumblers become maestros, awkward silences into applause-worthy monologues, and wallflowers bloom into dazzling dandelions of discourse. <br> <br>
+        
+                    In our rapidly advancing world of artificial intelligence and space exploration, what was once the realm of dreams has become our tangible reality. The transformative progress we have witnessed is a testament to the imaginative power of engineers who dared to dream big. Thus, we bring to you "What If". <br>
+        
+                    "What If" is not just a public speaking event. It is an exploration that propels you into a realm where reality and imagination converge. It is a journey into uncharted territory, guided by the compass of your creativity.</p>
+                    <p class="detail">Date - 21st January 2024</p>
+                    <p class="detail">Venue - Assembly Hall, MAB</p>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+</body>
+</html>
